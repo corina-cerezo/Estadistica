@@ -1,1 +1,24 @@
-Carpeta en la que se encuentran
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Análisis de defunciones en la Ciudad de México por causa de enfermedad COVID-19}
+\author{Corina Cerezo}
+\date{Enero 2021}
+
+\begin{document}
+
+\maketitle
+
+\section{Resumen}
+Con una base de datos desde 2017 se concluye que el patrón de defunciones diarias ha cambiado con la presencia de la nueva enfermedad COVID-19, dicho de otro modo, se está teniendo un exceso de muertes a consecuencia de la pandemia. También se concluye que la tasa de mortalidad en mujeres es apenas el 49.73\% de la tasa de mortalidad de hombres. Por contradictorio que parezca, la fecha no es significativa en la estimación de la tasa de mortalidad, pues en México el COVID-19 representa, en promedio, el 30\% de las muertes diarias, tasa que se ha mantenido relativamente constante a lo largo del 2020.
+
+\section{Introducción}
+
+La base de datos contiene la información de las actas de defunciones registradas ante el Registro Civil de la Ciudad de México en los años 2017, 2018, 2019 y 2020 (del 1 de enero de 2017 al 12 de diciembre de 2020).
+
+Las variables y su descripción se muestran en la siguiente tabla:
+
+
+
+
+\end{document}
