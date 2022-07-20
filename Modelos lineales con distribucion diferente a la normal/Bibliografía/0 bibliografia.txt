@@ -1,0 +1,92 @@
+GALEA 2000 Diagnostic methods in elliptical linear regression models
+ALCANTARA 2013 Linear regression models with slash-elliptical errors
+ANDERSON 1990 Tehory and applications of elliptically contoured and related distributions
+CHMIELEWSKI 1981 Elliptically symmetric distributions a review and bibliography
+CYSNEIROS 2007 Heteroscedastic symmetrical linear models
+LEMONTE 2011 Multivariate elliptical models with general parametrization
+GALEA 2001 On influence diagnostic in univariate elliptical linear regression models
+KIM 2016 Elliptical regression models for multivariate sample selection bias correction
+LIU 1999 On local influence for elliptical linear models
+SPANOS 1994 On modeling heteroskedasticity the students t and elliptical linear regression models
+FANG 1990 Symmetric multivariate and related distributions
+
+Páginas:
+https://www.rdocumentation.org/packages/gwer/versions/3.0/topics/elliptical
+
+Normal multivariada (distribución condicional):
+https://stats.stackexchange.com/questions/30588/deriving-the-conditional-distributions-of-a-multivariate-normal-distribution
+
+Mínimos cuadrados con restricciones:
+http://web.vu.lt/mif/a.buteikis/wp-content/uploads/PE_Book/4-4-Multiple-RLS.html
+
+Forma cuadrática
+https://stats.stackexchange.com/questions/188626/distribution-of-a-quadratic-form-non-central-chi-squared-distribution?rq=1
+
+Searle 1966 Matrix Algebra for the Biological Sciences página 96 para jsutificar el dociente de determinantes
+
+
+\begin{theorem}\label{propiedades}
+
+\end{theorem}
+
+\begin{flushright}
+	$\blacksquare$
+\end{flushright}
+
+#3######## definción de la densidad
+
+\begin{definition}\label{def_dce_distribucion_}
+    \textbf{Distribución .} Si $\underline{Y} \sim E_n(\underline{\mu},\Sigma,\psi)$ y su función generadora es de la forma
+    \begin{align}\label{g_generadora_distr_}
+        g(u)=c_
+    \end{align}
+    donde $c_$ es una constante de normalización, entonces se dice que $\underline{Y}$ tiene una distribución  y se denota $\underline{Y} \sim _n(\underline{\mu},\Sigma)$.
+    \end{definition}
+
+##### función de densidad
+
+Su función de densidad es de la forma
+    \begin{align}\label{f_densidad_}
+        f_{\underline{Y}}(\underline{y})=c_1 |\Sigma|^{-1/2} (\underline{y}-\underline{\mu})^T \Sigma^{-1}(\underline{y}-\underline{\mu})
+    \end{align}
+    con
+    \begin{align*}
+        c_1 = \frac{s\Gamma\left(\frac{n}{2}\right)}{\pi^{n/2}\Gamma\left( \frac{2N+n-2}{2s} \right)} r^{\frac{2N+n-2}{2s}}.
+    \end{align*}
+
+
+
+bibliografía que tengo que referenciar:
+
+ok Montgomery ///
+ok seber ///
+ok searle ///
+ok driscoll 1999 ///
+notas soriano regresión
+notas soriano estadística
+ok fang 1990 ///
+ok Gupta 2013 ///
+ok Galea 2000 ///
+ok Esta página: Mínimos cuadrados con restricciones: ///
+ok http://web.vu.lt/mif/a.buteikis/wp-content/uploads/PE_Book/4-4-Multiple-RLS.html ///
+ok anderson 2003 ///
+ok Díaz 2003 ///
+ok https://cran.r-project.org/web/packages/ExtDist/ExtDist.pdf la librería de rLaplace ///
+ok 
+ok
+ok https://cran.r-project.org/web/packages/mvtnorm/mvtnorm.pdf para simular t student
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
